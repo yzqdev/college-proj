@@ -1,0 +1,38 @@
+{
+  "properties": [
+    {
+      "name": "file.location",
+      "type": "java.lang.String",
+      "description": "Description for file.location."
+    },
+    {
+      "name": "jodconverter.enabled",
+      "type": "java.lang.String",
+      "description": "Description for jodconverter.enabled."
+    },
+    {
+      "name": "jodconverter.office-home",
+      "type": "java.lang.String",
+      "description": "Description for jodconverter.office-home."
+    },
+    {
+      "name": "jodconverter.port-numbers",
+      "type": "java.lang.String",
+      "description": "Description for jodconverter.port-numbers."
+    },
+    {
+      "name": "jodconverter.working-dir",
+      "type": "java.lang.String",
+      "description": "Description for jodconverter.working-dir."
+    },
+    {
+      "name": "jodconverter.max-tasks-per-process",
+      "type": "java.lang.String",
+      "description": "Description for jodconverter.max-tasks-per-process."
+    },
+    {
+      "name": "net.path",
+      "type": "java.lang.String",
+      "description": "Description for net.path."
+    }
+  ] }
