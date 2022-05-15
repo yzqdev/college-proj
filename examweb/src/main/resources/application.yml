@@ -27,7 +27,7 @@ server:
 spring:
   datasource:
     druid:
-      driver-class-name: com.mysql.cj.jdbc.Driver
+      driver-class-name: org.postgresql.Driver
       initial-size: 10
       max-active: 100
       max-pool-prepared-statement-per-connection-size: -1
@@ -46,8 +46,8 @@ spring:
       test-on-return: false
       test-while-idle: true
       time-between-eviction-runs-millis: 60000
-      url: jdbc:mysql://localhost:3306/examweb
-      username: root
+      url: jdbc:postgresql://localhost:5432/examweb
+      username: postgres
       validation-query: SELECT 'x'
       validation-query-timeout: 60000
       web-stat-filter:
