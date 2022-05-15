@@ -9,8 +9,6 @@ import com.qgzx.service.AdminService;
 import com.qgzx.util.JwtUtil;
 import com.qgzx.util.ResultEnum;
 import com.qgzx.util.ResultUtil;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -27,7 +25,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/admin")
 
-@Api(value = "管理登录", tags = "管理员")
 public class AdminController {
     @Resource
     private AdminService adminService;
@@ -84,7 +81,6 @@ public class AdminController {
         return null;
     }
 
-    @ApiOperation("验证登录")
     @ResponseBody
     @GetMapping("/verify")
     public Result verifyLogin(HttpServletRequest request) throws Exception {

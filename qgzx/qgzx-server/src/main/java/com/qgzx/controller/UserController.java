@@ -7,7 +7,6 @@ import com.qgzx.entity.User;
 import com.qgzx.mapper.UserMapper;
 import com.qgzx.service.UserService;
 import com.qgzx.util.ResultUtil;
-import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,7 +21,6 @@ import java.util.List;
 @Slf4j
 @RequestMapping(value = "/user")
 
-@Api(tags = "用户管理模块", value = "用户管理")
 public class UserController {
 
 

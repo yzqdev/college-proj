@@ -1,7 +1,6 @@
 package com.qgzx.controller.v1;
 
 import com.qgzx.entity.User;
-import io.swagger.annotations.Api;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +13,6 @@ import javax.servlet.http.HttpSession;
  * @Modified By:
  */
 @Controller
-@Api(tags = "页面管理模块",value = "yemianguanli")
 public class PageController {
 
     /**

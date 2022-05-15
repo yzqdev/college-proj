@@ -10,7 +10,6 @@ import com.qgzx.entity.Job;
 import com.qgzx.service.JobService;
 import com.qgzx.mapper.JobMapper;
 import com.qgzx.util.ResultUtil;
-import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -23,7 +22,6 @@ import java.util.List;
  * @author yanni
  */
 @RestController
-@Api(tags = "职位管理模块", value = "用户管理")
 
 public class JobController {
     @Resource
